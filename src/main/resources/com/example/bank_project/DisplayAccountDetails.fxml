@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="105.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="106.0" prefWidth="382.0">
+         <children>
+            <Label fx:id="lbAccountNameLabel" layoutX="52.0" layoutY="21.0" prefHeight="31.0" prefWidth="200.0" text="test account 1">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Line endX="73.0" layoutX="141.0" layoutY="52.0" startX="-100.0" />
+            <Label fx:id="lbAccountBalanceLabel" layoutX="52.0" layoutY="62.0" prefHeight="17.0" prefWidth="96.0" text="17777.77">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</VBox>

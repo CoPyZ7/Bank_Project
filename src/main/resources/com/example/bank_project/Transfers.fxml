@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="516.0" prefWidth="344.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bank_project.BankingController">
+   <children>
+      <Pane prefHeight="131.0" prefWidth="344.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="117.0" layoutY="50.0" prefHeight="31.0" prefWidth="111.0" text="Transfers">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <HBox prefHeight="105.0" prefWidth="344.0">
+         <children>
+            <Button fx:id="btnPayBills" mnemonicParsing="false" onAction="#goToPayBills" prefHeight="56.0" prefWidth="135.0" text="Pay a bill" textAlignment="CENTER" underline="true" wrapText="true">
+               <HBox.margin>
+                  <Insets left="25.0" top="25.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnTransferBetweenAccounts" mnemonicParsing="false" onAction="#goToTransferBetweenAccounts" prefHeight="56.0" prefWidth="135.0" text="Transfer Between Accounts" textAlignment="CENTER" underline="true" wrapText="true">
+               <HBox.margin>
+                  <Insets left="40.0" right="25.0" top="25.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <Pane prefHeight="261.0" prefWidth="344.0">
+         <children>
+            <Button fx:id="btnGoBackToAccounts" layoutX="14.0" layoutY="207.0" mnemonicParsing="false" onAction="#goBackToAccountsMenu" prefHeight="40.0" prefWidth="80.0" text="Go Back" />
+         </children>
+      </Pane>
+   </children>
+</VBox>
